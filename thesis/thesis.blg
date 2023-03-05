@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+The style file: sapthesis.bst
+Reallocating 'name_of_file' (item size: 1) to 13 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Database file #1: bibliography.bib
+Warning--to sort, need author or key in white-paper-wifi-sensing
+Warning--empty author in white-paper-wifi-sensing
+Warning--can't use both volume and number fields in hampel
+Warning--empty journal in rssi-reliable
+You've used 43 entries,
+            3472 wiz_defined-function locations,
+            1015 strings with 17699 characters,
+and the built_in function-call counts, 30599 in all, are:
+= -- 2834
+> -- 1389
+< -- 15
++ -- 718
+- -- 386
+* -- 2036
+:= -- 3613
+add.period$ -- 184
+call.type$ -- 43
+change.case$ -- 338
+chr.to.int$ -- 0
+cite$ -- 47
+duplicate$ -- 1918
+empty$ -- 2417
+format.name$ -- 433
+if$ -- 7239
+int.to.chr$ -- 0
+int.to.str$ -- 43
+missing$ -- 474
+newline$ -- 261
+num.names$ -- 91
+pop$ -- 1221
+preamble$ -- 1
+purify$ -- 267
+quote$ -- 0
+skip$ -- 1644
+stack$ -- 0
+substring$ -- 708
+swap$ -- 1319
+text.length$ -- 15
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 170
+warning$ -- 4
+while$ -- 141
+width$ -- 45
+write$ -- 585
+(There were 4 warnings)

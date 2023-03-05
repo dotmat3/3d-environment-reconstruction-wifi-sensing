@@ -1,0 +1,245 @@
+<body style="margin: 0px; overflow: hidden">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/loaders/GLTFLoader.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/OrbitControls.js"></script>
+
+  <script>
+    class VoxelVisualizer {
+      constructor(width, height, frameDuration, cameraDistance) {
+        this.width = width;
+        this.height = height;
+        this.data = "$B64GLTF";
+
+        this.frameDuration = frameDuration;
+        if (
+          typeof this.frameDuration === "string" ||
+          this.frameDuration instanceof String
+        )
+          this.frameDuration = 500;
+
+        this.cameraDistance = cameraDistance;
+        if (
+          typeof this.cameraDistance === "string" ||
+          this.cameraDistance instanceof String
+        )
+          this.cameraDistance = 20;
+
+        this.scene = new THREE.Scene();
+        this.scene.background = new THREE.Color(0xffffff);
+
+        // this.camera = new THREE.PerspectiveCamera(
+        //   75,
+        //   this.width / this.height,
+        //   0.1,
+        //   1000
+        // );
+
+        this.renderer = new THREE.WebGLRenderer({
+          preserveDrawingBuffer: true,
+          antialias: true,
+          alpha: true,
+        });
+        this.renderer.setPixelRatio(window.devicePixelRatio);
+        this.renderer.setSize(this.width, this.height);
+        this.renderer.setClearColor(0x000000, 0);
+        this.renderer.outputEncoding = THREE.sRGBEncoding;
+
+        document.body.appendChild(this.renderer.domElement);
+
+        this.animate = this.animate.bind(this);
+        this.render = this.render.bind(this);
+        this.draw = this.draw.bind(this);
+
+        this.camera = new THREE.PerspectiveCamera(
+          75,
+          this.width / this.height,
+          0.1,
+          1000
+        );
+
+        this.light = new THREE.DirectionalLight(0xffffff, 1.75);
+        // this.light = new THREE.HemisphereLight(0xb1e1ff, 0xffffff, 1);
+        this.light.position.set(0, 64, 0);
+        this.light.target.position.set(-5, 0, -10);
+        this.scene.add(this.light);
+        this.light.target.updateMatrixWorld();
+
+        const axesHelper = new THREE.AxesHelper(5);
+        this.scene.add(axesHelper);
+
+        if (this.data instanceof Array) {
+          this.counter = this.createFrameCounter();
+
+          document.body.appendChild(this.counter);
+
+          this.startAnimation(0);
+        } else {
+          this.draw(this.data);
+        }
+
+        this.controls = new THREE.OrbitControls(
+          this.camera,
+          this.renderer.domElement
+        );
+        this.updateCameraPosition();
+
+        this.render();
+
+        window.addEventListener(
+          "resize",
+          this.onWindowResize.bind(this),
+          false
+        );
+
+        this.animate();
+        this.onWindowResize();
+      }
+
+      draw(data) {
+        if (!data.startsWith("$")) {
+          this.loader = new THREE.GLTFLoader();
+          this.loader.load("data:text/plain;base64," + data, (gltf) => {
+            this.scene.add(gltf.scene);
+            this.loadedScene = gltf.scene;
+          });
+        }
+      }
+
+      updateCameraPosition() {
+        this.camera.position.set(
+          64 + this.cameraDistance,
+          64 + this.cameraDistance,
+          64 + this.cameraDistance
+        );
+        this.controls.update();
+      }
+
+      render() {
+        this.light.position.copy(this.camera.position);
+        this.renderer.render(this.scene, this.camera);
+      }
+
+      clearScene() {
+        this.scene.remove(this.loadedScene);
+      }
+
+      createFrameCounter() {
+        const counter = document.createElement("p");
+        counter.textContent = "Frame: ";
+        counter.style.position = "fixed";
+        counter.style.top = "10px";
+        counter.style.left = "10px";
+        counter.style.color = "white";
+
+        return counter;
+      }
+
+      // createPlayToggle() {
+      //   const playToggle = document.createElement("button");
+      //   playToggle.textContent = "Play";
+      //   playToggle.style.width = "50px";
+      //   playToggle.onclick = () => {
+      //     this.playing = !this.playing;
+      //     if (this.playing) {
+      //       this.startAnimation(this.slider.value);
+      //       playToggle.textContent = "Pause";
+      //     } else {
+      //       this.stopAnimation();
+      //     }
+      //   };
+      //   return playToggle;
+      // }
+
+      // createScreenshotButton() {
+      //   const btn = document.createElement("button");
+      //   btn.textContent = "Screen";
+      //   btn.style.width = "50px";
+      //   btn.onclick = () => this.saveAsImage();
+      //   return btn;
+      // }
+
+      // createSlider() {
+      //   const slider = document.createElement("input");
+      //   slider.type = "range";
+      //   slider.min = 0;
+      //   slider.max = this.data.length - 1;
+      //   slider.oninput = () => {
+      //     const currentFrame = slider.value;
+      //     this.counter.textContent = currentFrame;
+      //     this.clearScene();
+      //     this.drawVoxels(this.data[currentFrame]);
+      //   };
+      //   slider.value = 0;
+      //   slider.style.width = "445px";
+      //   return slider;
+      // }
+
+      startAnimation(startingFrame) {
+        // Reset animation if it was finished
+        if (startingFrame === this.data.length - 1) startingFrame = 0;
+
+        let currentFrame = startingFrame;
+        this.counter.textContent = "Frame: " + currentFrame;
+
+        this.framesInterval = setInterval(() => {
+          this.clearScene();
+
+          currentFrame = currentFrame % this.data.length;
+          this.counter.textContent = "Frame: " + currentFrame;
+          this.draw(this.data[currentFrame]);
+          currentFrame++;
+
+          if (currentFrame === this.data.length) {
+            // this.stopAnimation();
+          }
+        }, this.frameDuration);
+      }
+
+      stopAnimation() {
+        clearInterval(this.framesInterval);
+      }
+
+      animate() {
+        requestAnimationFrame(this.animate);
+        this.render();
+      }
+
+      saveAsImage() {
+        let imgData, imgNode;
+
+        try {
+          let strMime = "image/jpeg";
+          imgData = this.renderer.domElement.toDataURL(strMime);
+          console.log(imgData);
+          let strData = imgData.replace(strMime, "image/octet-stream");
+          let filename = "test.jpg";
+          let link = document.createElement("a");
+
+          document.body.appendChild(link); //Firefox requires the link to be in the body
+          link.download = filename;
+          link.href = strData;
+          link.click();
+          document.body.removeChild(link); //remove the link when done
+        } catch (e) {
+          console.log(e);
+          return;
+        }
+      }
+
+      onWindowResize() {
+        this.camera.aspect = window.innerWidth / window.innerHeight;
+        this.camera.updateProjectionMatrix();
+
+        this.renderer.setSize(window.innerWidth, window.innerHeight);
+        this.renderer.render(this.scene, this.camera);
+      }
+    }
+
+    new VoxelVisualizer(
+      window.innerWidth,
+      window.innerHeight,
+      "$FRAME_DURATION",
+      "$CAMERA_DISTANCE"
+    );
+  </script>
+</body>

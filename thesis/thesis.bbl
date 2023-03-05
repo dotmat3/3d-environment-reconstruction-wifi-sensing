@@ -1,0 +1,390 @@
+\begin{thebibliography}{10}
+
+\bibitem{white-paper-wifi-sensing}
+Wi-fi sensing.
+\newblock White paper, Wireless Broadband Alliance (2019).
+\newblock Available from: \url{https://wballiance.com/wba-wi-fi-sensing/}.
+
+\bibitem{human-through-wall}
+\textsc{Adib, F., Hsu, C., Mao, H., Katabi, D., and Durand, F.}
+\newblock Capturing the human figure through a wall.
+\newblock \emph{{ACM} Trans. Graph.}, \textbf{34} (2015), 219:1.
+\newblock Available from: \url{https://doi.org/10.1145/2816795.2818072}, \href
+  {http://dx.doi.org/10.1145/2816795.2818072}
+  {\path{doi:10.1145/2816795.2818072}}.
+
+\bibitem{3d-repr-survey}
+\textsc{Ahmed, E., Saint, A., Shabayek, A. E.~R., Cherenkova, K., Das, R.,
+  Gusev, G., Aouada, D., and Ottersten, B.~E.}
+\newblock Deep learning advances on different 3d data representations: {A}
+  survey.
+\newblock \emph{CoRR}, \textbf{abs/1808.01462} (2018).
+\newblock Available from: \url{http://arxiv.org/abs/1808.01462}, \href
+  {http://arxiv.org/abs/1808.01462} {\path{arXiv:1808.01462}}.
+
+\bibitem{human-to-human}
+\textsc{Alazrai, R., Hababeh, M., Alsaify, B.~A., Ali, M.~Z., and Daoud, M.~I.}
+\newblock An end-to-end deep learning framework for recognizing human-to-human
+  interactions using wi-fi signals.
+\newblock \emph{{IEEE} Access}, \textbf{8} (2020), 197695.
+\newblock Available from: \url{https://doi.org/10.1109/ACCESS.2020.3034849},
+  \href {http://dx.doi.org/10.1109/ACCESS.2020.3034849}
+  {\path{doi:10.1109/ACCESS.2020.3034849}}.
+
+\bibitem{violating-privacy}
+\textsc{Banerjee, A., Maas, D., Bocca, M., Patwari, N., and Kasera, S.~K.}
+\newblock Violating privacy through walls by passive monitoring of radio
+  windows.
+\newblock In \emph{7th {ACM} Conference on Security {\&} Privacy in Wireless
+  and Mobile Networks, WiSec'14, Oxford, United Kingdom, July 23-25, 2014}
+  (edited by G.~{\'{A}}cs, A.~P. Martin, I.~Martinovic, C.~Castelluccia, and
+  P.~Traynor), pp. 69--80. {ACM} (2014).
+\newblock Available from: \url{https://doi.org/10.1145/2627393.2627418}, \href
+  {http://dx.doi.org/10.1145/2627393.2627418}
+  {\path{doi:10.1145/2627393.2627418}}.
+
+\bibitem{open-pose}
+\textsc{Cao, Z., Hidalgo, G., Simon, T., Wei, S., and Sheikh, Y.}
+\newblock Openpose: Realtime multi-person 2d pose estimation using part
+  affinity fields.
+\newblock \emph{CoRR}, \textbf{abs/1812.08008} (2018).
+\newblock Available from: \url{http://arxiv.org/abs/1812.08008}, \href
+  {http://arxiv.org/abs/1812.08008} {\path{arXiv:1812.08008}}.
+
+\bibitem{through-wall-sensing}
+\textsc{Chetty, K., Smith, G.~E., and Woodbridge, K.}
+\newblock Through-the-wall sensing of personnel using passive bistatic wifi
+  radar at standoff distances.
+\newblock \emph{{IEEE} Trans. Geosci. Remote. Sens.}, \textbf{50} (2012), 1218.
+\newblock Available from: \url{https://doi.org/10.1109/TGRS.2011.2164411},
+  \href {http://dx.doi.org/10.1109/TGRS.2011.2164411}
+  {\path{doi:10.1109/TGRS.2011.2164411}}.
+
+\bibitem{3d-r2n2}
+\textsc{Choy, C.~B., Xu, D., Gwak, J., Chen, K., and Savarese, S.}
+\newblock 3d-r2n2: {A} unified approach for single and multi-view 3d object
+  reconstruction.
+\newblock \emph{CoRR}, \textbf{abs/1604.00449} (2016).
+\newblock Available from: \url{http://arxiv.org/abs/1604.00449}, \href
+  {http://arxiv.org/abs/1604.00449} {\path{arXiv:1604.00449}}.
+
+\bibitem{hampel}
+\textsc{Davies, L. and Gather, U.}
+\newblock The identification of multiple outliers.
+\newblock In \emph{Journal of the American Statistical Association}, vol.~88,
+  pp. 782--792 (1993).
+\newblock \href {http://dx.doi.org/https://doi.org/10.2307/2290763}
+  {\path{doi:https://doi.org/10.2307/2290763}}.
+
+\bibitem{vit}
+\textsc{Dosovitskiy, A., et~al.}
+\newblock An image is worth 16x16 words: Transformers for image recognition at
+  scale.
+\newblock \emph{CoRR}, \textbf{abs/2010.11929} (2020).
+\newblock Available from: \url{https://arxiv.org/abs/2010.11929}, \href
+  {http://arxiv.org/abs/2010.11929} {\path{arXiv:2010.11929}}.
+
+\bibitem{rssi-def}
+\textsc{Farahani, S.}
+\newblock Location estimation methods.
+\newblock In \emph{ZigBee Wireless Networks and Transceivers} (edited by
+  S.~Farahani), pp. 225--246. Newnes, Burlington (2008).
+\newblock ISBN 978-0-7506-8393-7.
+\newblock Available from:
+  \url{https://www.sciencedirect.com/science/article/pii/B9780750683937000078},
+  \href {http://dx.doi.org/https://doi.org/10.1016/B978-0-7506-8393-7.00007-8}
+  {\path{doi:https://doi.org/10.1016/B978-0-7506-8393-7.00007-8}}.
+
+\bibitem{3d-imaging-sparse-wireless-signal-reconstruction-ml}
+\textsc{Fowler, S., Baravdish, G., and Baravdish, G.}
+\newblock 3d imaging of sparse wireless signal reconstructions via machine
+  learning.
+\newblock In \emph{2020 {IEEE} International Conference on Communications,
+  {ICC} 2020, Dublin, Ireland, June 7-11, 2020}, pp. 1--6. {IEEE} (2020).
+\newblock Available from: \url{https://doi.org/10.1109/ICC40277.2020.9148682},
+  \href {http://dx.doi.org/10.1109/ICC40277.2020.9148682}
+  {\path{doi:10.1109/ICC40277.2020.9148682}}.
+
+\bibitem{semantic-segmentation-rgbd-images}
+\textsc{Guo, Y. and Chen, T.}
+\newblock Semantic segmentation of {RGBD} images based on deep depth
+  regression.
+\newblock \emph{Pattern Recognit. Lett.}, \textbf{109} (2018), 55.
+\newblock Available from: \url{https://doi.org/10.1016/j.patrec.2017.08.026},
+  \href {http://dx.doi.org/10.1016/j.patrec.2017.08.026}
+  {\path{doi:10.1016/j.patrec.2017.08.026}}.
+
+\bibitem{tool-release}
+\textsc{Halperin, D., Hu, W., Sheth, A., and Wetherall, D.}
+\newblock Tool release: gathering 802.11n traces with channel state
+  information.
+\newblock \emph{Comput. Commun. Rev.}, \textbf{41} (2011), 53.
+\newblock Available from: \url{https://doi.org/10.1145/1925861.1925870}, \href
+  {http://dx.doi.org/10.1145/1925861.1925870}
+  {\path{doi:10.1145/1925861.1925870}}.
+
+\bibitem{towards-human-pose-construction}
+\textsc{Jiang, W., et~al.}
+\newblock Towards 3d human pose construction using wifi.
+\newblock In \emph{MobiCom '20: The 26th Annual International Conference on
+  Mobile Computing and Networking, London, United Kingdom, September 21-25,
+  2020}, pp. 23:1--23:14. {ACM} (2020).
+\newblock Available from: \url{https://doi.org/10.1145/3372224.3380900}, \href
+  {http://dx.doi.org/10.1145/3372224.3380900}
+  {\path{doi:10.1145/3372224.3380900}}.
+
+\bibitem{indoor-env-survey}
+\textsc{Kang, Z., Yang, J., Yang, Z., and Cheng, S.}
+\newblock A review of techniques for 3d reconstruction of indoor environments.
+\newblock \emph{{ISPRS} Int. J. Geo Inf.}, \textbf{9} (2020), 330.
+\newblock Available from: \url{https://doi.org/10.3390/ijgi9050330}, \href
+  {http://dx.doi.org/10.3390/ijgi9050330} {\path{doi:10.3390/ijgi9050330}}.
+
+\bibitem{csi2image}
+\textsc{Kato, S., Fukushima, T., Murakami, T., Abeysekera, H., Iwasaki, Y.,
+  Fujihashi, T., Watanabe, T., and Saruwatari, S.}
+\newblock Csi2image: Image reconstruction from channel state information using
+  generative adversarial networks.
+\newblock \emph{CoRR}, \textbf{abs/2009.07100} (2020).
+\newblock Available from: \url{https://arxiv.org/abs/2009.07100}, \href
+  {http://arxiv.org/abs/2009.07100} {\path{arXiv:2009.07100}}.
+
+\bibitem{wi2vi}
+\textsc{Kefayati, M.~H., Pourahmadi, V., and Aghaeinia, H.}
+\newblock Wi2vi: Generating video frames from wifi {CSI} samples.
+\newblock \emph{CoRR}, \textbf{abs/2001.05842} (2020).
+\newblock Available from: \url{https://arxiv.org/abs/2001.05842}, \href
+  {http://arxiv.org/abs/2001.05842} {\path{arXiv:2001.05842}}.
+
+\bibitem{adam}
+\textsc{Kingma, D.~P. and Ba, J.}
+\newblock Adam: {A} method for stochastic optimization.
+\newblock In \emph{3rd International Conference on Learning Representations,
+  {ICLR} 2015, San Diego, CA, USA, May 7-9, 2015, Conference Track Proceedings}
+  (edited by Y.~Bengio and Y.~LeCun) (2015).
+\newblock Available from: \url{http://arxiv.org/abs/1412.6980}.
+
+\bibitem{effects-housing-environments}
+\textsc{Lee, H., Ahn, C.~R., Choi, N., Kim, T., and Lee, H.}
+\newblock The effects of housing environments on the performance of
+  activity-recognition systems using wi-fi channel state information: An
+  exploratory study.
+\newblock \emph{Sensors}, \textbf{19} (2019), 983.
+\newblock Available from: \url{https://doi.org/10.3390/s19050983}, \href
+  {http://dx.doi.org/10.3390/s19050983} {\path{doi:10.3390/s19050983}}.
+
+\bibitem{cnn-wifi-localization}
+\textsc{Li, H., Zeng, X., Li, Y., Zhou, S., and Wang, J.}
+\newblock Convolutional neural networks based indoor wi-fi localization with a
+  novel kind of csi images.
+\newblock \emph{China Communications}, \textbf{16} (2019), 250.
+\newblock \href {http://dx.doi.org/10.23919/JCC.2019.09.019}
+  {\path{doi:10.23919/JCC.2019.09.019}}.
+
+\bibitem{novel-gesture-recognition}
+\textsc{Li, T., Shi, C., Li, P., and Chen, P.}
+\newblock A novel gesture recognition system based on {CSI} extracted from a
+  smartphone with nexmon firmware.
+\newblock \emph{Sensors}, \textbf{21} (2021), 222.
+\newblock Available from: \url{https://doi.org/10.3390/s21010222}, \href
+  {http://dx.doi.org/10.3390/s21010222} {\path{doi:10.3390/s21010222}}.
+
+\bibitem{wifi-sensing-survey}
+\textsc{Ma, Y., Zhou, G., and Wang, S.}
+\newblock Wifi sensing with channel state information: {A} survey.
+\newblock \emph{{ACM} Comput. Surv.}, \textbf{52} (2019), 46:1.
+\newblock Available from: \url{https://doi.org/10.1145/3310194}, \href
+  {http://dx.doi.org/10.1145/3310194} {\path{doi:10.1145/3310194}}.
+
+\bibitem{study-materials-on-wifi}
+\textsc{Mohammed, R.~A., Al{-}Nakkash, A.~H., and Salim, O. N.~M.}
+\newblock A comprehensive study of the environmental effects on wifi received
+  signal strength: Lab scenario.
+\newblock In \emph{Applied Computing to Support Industry: Innovation and
+  Technology - First International Conference, {ACRIT} 2019, Ramadi, Iraq,
+  September 15-16, 2019, Revised Selected Papers} (edited by M.~I. Khalaf,
+  D.~Al{-}Jumeily, and A.~Lisitsa), vol. 1174 of \emph{Communications in
+  Computer and Information Science}, pp. 455--464. Springer (2019).
+\newblock Available from: \url{https://doi.org/10.1007/978-3-030-38752-5\_35},
+  \href {http://dx.doi.org/10.1007/978-3-030-38752-5\_35}
+  {\path{doi:10.1007/978-3-030-38752-5\_35}}.
+
+\bibitem{rssi-reliable}
+\textsc{Parameswaran, A., Iftekhar~Husain, M., and Upadhyaya, S.}
+\newblock Is rssi a reliable parameter in sensor localization algorithms: an
+  experimental study.
+\newblock  (2009).
+
+\bibitem{pointnet}
+\textsc{Qi, C.~R., Su, H., Mo, K., and Guibas, L.~J.}
+\newblock Pointnet: Deep learning on point sets for 3d classification and
+  segmentation.
+\newblock \emph{CoRR}, \textbf{abs/1612.00593} (2016).
+\newblock Available from: \url{http://arxiv.org/abs/1612.00593}, \href
+  {http://arxiv.org/abs/1612.00593} {\path{arXiv:1612.00593}}.
+
+\bibitem{pads}
+\textsc{Qian, K., Wu, C., Yang, Z., Liu, Y., and Zhou, Z.}
+\newblock {PADS:} passive detection of moving targets with dynamic speed using
+  {PHY} layer information.
+\newblock In \emph{20th {IEEE} International Conference on Parallel and
+  Distributed Systems, {ICPADS} 2014, Hsinchu, Taiwan, December 16-19, 2014},
+  pp. 1--8. {IEEE} Computer Society (2014).
+\newblock Available from: \url{https://doi.org/10.1109/PADSW.2014.7097784},
+  \href {http://dx.doi.org/10.1109/PADSW.2014.7097784}
+  {\path{doi:10.1109/PADSW.2014.7097784}}.
+
+\bibitem{spot}
+\textsc{Sen, S., Radunovic, B., Choudhury, R.~R., and Minka, T.}
+\newblock You are facing the mona lisa: spot localization using {PHY} layer
+  information.
+\newblock In \emph{The 10th International Conference on Mobile Systems,
+  Applications, and Services, MobiSys'12, Ambleside, United Kingdom - June 25 -
+  29, 2012} (edited by N.~Davies, S.~Seshan, and L.~Zhong), pp. 183--196. {ACM}
+  (2012).
+\newblock Available from: \url{https://doi.org/10.1145/2307636.2307654}, \href
+  {http://dx.doi.org/10.1145/2307636.2307654}
+  {\path{doi:10.1145/2307636.2307654}}.
+
+\bibitem{3d-retr}
+\textsc{Shi, Z., Meng, Z., Xing, Y., Ma, Y., and Wattenhofer, R.}
+\newblock 3d-retr: End-to-end single and multi-view 3d reconstruction with
+  transformers.
+\newblock \emph{CoRR}, \textbf{abs/2110.08861} (2021).
+\newblock Available from: \url{https://arxiv.org/abs/2110.08861}, \href
+  {http://arxiv.org/abs/2110.08861} {\path{arXiv:2110.08861}}.
+
+\bibitem{360-mlc}
+\textsc{Solarte, B., Wu, C., Liu, Y., Tsai, Y., and Sun, M.}
+\newblock 360-mlc: Multi-view layout consistency for self-training and
+  hyper-parameter tuning.
+\newblock \emph{CoRR}, \textbf{abs/2210.12935} (2022).
+\newblock Available from: \url{https://doi.org/10.48550/arXiv.2210.12935},
+  \href {http://arxiv.org/abs/2210.12935} {\path{arXiv:2210.12935}}, \href
+  {http://dx.doi.org/10.48550/arXiv.2210.12935}
+  {\path{doi:10.48550/arXiv.2210.12935}}.
+
+\bibitem{wireless-communications}
+\textsc{Tse, D. and Viswanath, P.}
+\newblock \emph{Fundamentals of Wireless Communication}.
+\newblock Cambridge University Press (2005).
+\newblock ISBN 9780511807213.
+\newblock Available from: \url{https://doi.org/10.1017/CBO9780511807213}, \href
+  {http://dx.doi.org/10.1017/CBO9780511807213}
+  {\path{doi:10.1017/CBO9780511807213}}.
+
+\bibitem{attention-is-all-you-need}
+\textsc{Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez,
+  A.~N., Kaiser, L., and Polosukhin, I.}
+\newblock Attention is all you need.
+\newblock \emph{CoRR}, \textbf{abs/1706.03762} (2017).
+\newblock Available from: \url{http://arxiv.org/abs/1706.03762}, \href
+  {http://arxiv.org/abs/1706.03762} {\path{arXiv:1706.03762}}.
+
+\bibitem{multi-view-3d-transformer}
+\textsc{Wang, D., Cui, X., Chen, X., Zou, Z., Shi, T., Salcudean, S., Wang,
+  Z.~J., and Ward, R.}
+\newblock Multi-view 3d reconstruction with transformer.
+\newblock \emph{CoRR}, \textbf{abs/2103.12957} (2021).
+\newblock Available from: \url{https://arxiv.org/abs/2103.12957}, \href
+  {http://arxiv.org/abs/2103.12957} {\path{arXiv:2103.12957}}.
+
+\bibitem{person-in-wifi}
+\textsc{Wang, F., Zhou, S., Panev, S., Han, J., and Huang, D.}
+\newblock Person-in-wifi: Fine-grained person perception using wifi.
+\newblock In \emph{2019 {IEEE/CVF} International Conference on Computer Vision,
+  {ICCV} 2019, Seoul, Korea (South), October 27 - November 2, 2019}, pp.
+  5451--5460. {IEEE} (2019).
+\newblock Available from: \url{https://doi.org/10.1109/ICCV.2019.00555}, \href
+  {http://dx.doi.org/10.1109/ICCV.2019.00555}
+  {\path{doi:10.1109/ICCV.2019.00555}}.
+
+\bibitem{psmnet}
+\textsc{Wang, H., Hutchcroft, W., Li, Y., Wan, Z., Boyadzhiev, I., Tian, Y.,
+  and Kang, S.~B.}
+\newblock Psmnet: Position-aware stereo merging network for room layout
+  estimation.
+\newblock \emph{CoRR}, \textbf{abs/2203.15965} (2022).
+\newblock Available from: \url{https://doi.org/10.48550/arXiv.2203.15965},
+  \href {http://arxiv.org/abs/2203.15965} {\path{arXiv:2203.15965}}, \href
+  {http://dx.doi.org/10.48550/arXiv.2203.15965}
+  {\path{doi:10.48550/arXiv.2203.15965}}.
+
+\bibitem{carm}
+\textsc{Wang, W., Liu, A.~X., Shahzad, M., Ling, K., and Lu, S.}
+\newblock Understanding and modeling of wifi signal based human activity
+  recognition.
+\newblock In \emph{Proceedings of the 21st Annual International Conference on
+  Mobile Computing and Networking, MobiCom 2015, Paris, France, September 7-11,
+  2015} (edited by S.~Fdida, G.~Pau, S.~K. Kasera, and H.~Zheng), pp. 65--76.
+  {ACM} (2015).
+\newblock Available from: \url{https://doi.org/10.1145/2789168.2790093}, \href
+  {http://dx.doi.org/10.1145/2789168.2790093}
+  {\path{doi:10.1145/2789168.2790093}}.
+
+\bibitem{phasefi}
+\textsc{Wang, X., Gao, L., and Mao, S.}
+\newblock Phasefi: Phase fingerprinting for indoor localization with a deep
+  learning approach.
+\newblock In \emph{2015 {IEEE} Global Communications Conference, {GLOBECOM}
+  2015, San Diego, CA, USA, December 6-10, 2015}, pp. 1--6. {IEEE} (2015).
+\newblock Available from: \url{https://doi.org/10.1109/GLOCOM.2014.7417517},
+  \href {http://dx.doi.org/10.1109/GLOCOM.2014.7417517}
+  {\path{doi:10.1109/GLOCOM.2014.7417517}}.
+
+\bibitem{cifi}
+\textsc{Wang, X., Wang, X., and Mao, S.}
+\newblock Cifi: Deep convolutional neural networks for indoor localization with
+  5 ghz wi-fi.
+\newblock In \emph{{IEEE} International Conference on Communications, {ICC}
+  2017, Paris, France, May 21-25, 2017}, pp. 1--6. {IEEE} (2017).
+\newblock Available from: \url{https://doi.org/10.1109/ICC.2017.7997235}, \href
+  {http://dx.doi.org/10.1109/ICC.2017.7997235}
+  {\path{doi:10.1109/ICC.2017.7997235}}.
+
+\bibitem{wimose}
+\textsc{Wang, Y., Guo, L., Lu, Z., Wen, X., Zhou, S., and Meng, W.}
+\newblock From point to space: 3d moving human pose estimation using commodity
+  wifi.
+\newblock \emph{CoRR}, \textbf{abs/2012.14066} (2020).
+\newblock Available from: \url{https://arxiv.org/abs/2012.14066}, \href
+  {http://arxiv.org/abs/2012.14066} {\path{arXiv:2012.14066}}.
+
+\bibitem{wifall}
+\textsc{Wang, Y., Wu, K., and Ni, L.~M.}
+\newblock Wifall: Device-free fall detection by wireless networks.
+\newblock \emph{{IEEE} Trans. Mob. Comput.}, \textbf{16} (2017), 581.
+\newblock Available from: \url{https://doi.org/10.1109/TMC.2016.2557792}, \href
+  {http://dx.doi.org/10.1109/TMC.2016.2557792}
+  {\path{doi:10.1109/TMC.2016.2557792}}.
+
+\bibitem{pix2vox}
+\textsc{Xie, H., Yao, H., Sun, X., Zhou, S., Zhang, S., and Tong, X.}
+\newblock Pix2vox: Context-aware 3d reconstruction from single and multi-view
+  images.
+\newblock \emph{CoRR}, \textbf{abs/1901.11153} (2019).
+\newblock Available from: \url{http://arxiv.org/abs/1901.11153}, \href
+  {http://arxiv.org/abs/1901.11153} {\path{arXiv:1901.11153}}.
+
+\bibitem{rfid}
+\textsc{Yang, C., Wang, X., and Mao, S.}
+\newblock Rfid-based 3d human pose tracking: {A} subject generalization
+  approach.
+\newblock \emph{Digit. Commun. Networks}, \textbf{8} (2022), 278.
+\newblock Available from: \url{https://doi.org/10.1016/j.dcan.2021.09.002},
+  \href {http://dx.doi.org/10.1016/j.dcan.2021.09.002}
+  {\path{doi:10.1016/j.dcan.2021.09.002}}.
+
+\bibitem{rf-based-3d-skeleton}
+\textsc{Zhao, M., Tian, Y., Zhao, H., Alsheikh, M.~A., Li, T., Hristov, R.,
+  Kabelac, Z., Katabi, D., and Torralba, A.}
+\newblock Rf-based 3d skeletons.
+\newblock In \emph{Proceedings of the 2018 Conference of the {ACM} Special
+  Interest Group on Data Communication, {SIGCOMM} 2018, Budapest, Hungary,
+  August 20-25, 2018} (edited by S.~Gorinsky and J.~Tapolcai), pp. 267--281.
+  {ACM} (2018).
+\newblock Available from: \url{https://doi.org/10.1145/3230543.3230579}, \href
+  {http://dx.doi.org/10.1145/3230543.3230579}
+  {\path{doi:10.1145/3230543.3230579}}.
+
+\end{thebibliography}
